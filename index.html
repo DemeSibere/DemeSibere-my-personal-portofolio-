@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./Assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand navbar-dark bg-info">
+        <div class="container">
+            `
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact-me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.google.com">Resume</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div style="background-color: #e3f2fd;">
+        <section id="about">
+            <div class="container mt-4 pt-4">
+                <h1 class="text-center">About Me</h1>
+                <div class="row mt-4">
+                    <div class="col-lg-4">
+                        <img src="./Assets/image.JPG" class="imageAboutPage" alt="mypic">
+                    </div>
+                    <div class="col-lg-8">
+                        
+                        <div class="row mt-3">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Name: Deme Sibere</li>
+                                    <li>Age: 28</li>
+                                    <li>Occupation: Full Stack Web Developer</li>
+                                </ul>
+                                <br>
+                                <p>
+                                    Exceptionally focused and reliable Java Developer with an outstanding work ethic
+                                    and computer language knowledge base. Adept at explaining complex computer
+                                    development
+                                    concepts and processes to a variety of professional and lay audiences in a clear and
+                                    accessible
+                                    manner. Able to work well independently or as part of a professional computer
+                                    program development team.
+                                    </p>
+                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="services">
+            <div class="container">
+                <h1 class="text-center">Work</h1>
+                <div class="row">
+                    <div class="col-lg-4 mt-4" style="background-image: url(./Assets/imag1.jpg)">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class="fas servicesIcon fa-clock"></i>
+                                <h4 class="card-title mt-3">HTML</h4>
+                                
+                                    <ul>
+                                        <li>Built and styled static webpages with semantic HTML and CSS</li>
+                                        <li>Performed common commands via the command line</li>
+                                        <li>Excuted live deployment using GitHub Pages</li>
+                                    </ul>               
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4" style="background-image: url(./Assets/imag2.jpg);">
+                        <div class="card servicesText">
+                            <div class="card-body">
+                                <i class='fas servicesIcon fa-layer-group'></i>
+                                <h4 class="card-title mt-3">CSS</h4>
+                                
+                                    <ul>
+                                        <li>Implement CSS styling via class, id and element selectors using external stylesheets</li>
+                                        <li>Explain the "cascading" in Cascading Style Sheets and implement the box model for HTML elements</li>
+                                        </li>
+
+                                    </ul>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 mt-4" style="background-image: url(./Assets/imag1.jpg);">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class='fas servicesIcon fa-search'></i>
+                                    <h4 class="card-title mt-3">JavaScript</h4>
+                                    <p class="card-text mt-3">
+                                    <ul>
+                                        <li>Declared variables containing primitive and object data types in JavaScript</li>
+                                        <li>Wrote for loops to iterate over strings and arrays</li>
+                                        <li>Wrote conditional statements using if/else and switch</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-4" style="background-image: url(./Assets/imag2.jpg);">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class='fas servicesIcon fa-shield-alt'></i>
+                                    <h4 class="card-title mt-3">Bootstrap</h4>
+                                        <ul>
+                                            <li>Implemented a flexbox layout for a responsive design</li>
+    
+                                            <li>Explained and implemented CSS custom properties (variables)</li>
+    
+                                            <li>Explained and implemented basic media queries</li>
+                                        </ul>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="contact">
+            <div class="container mt-3 contactContent">
+                <h1 class="text-center">Contact Me</h1>
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                        <form>
+                            <input type="text" class="form-control form-control-lg" placeholder="Name">
+                            <input type="email" class="form-control mt-3" placeholder="Email">
+                            <input type="text" class="form-control mt-3" placeholder="Subject">
+                            <div class="mb-3 mt-3">
+                                <textarea class="form-control" rows="5" id="comment" name="text"
+                                    placeholder="Project Details"></textarea>
+                            </div>
+                        </form>
+                        <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer id="footer">
+        <div class="social-container">
+            <a class="btn btn-primary" style="background-color: #333333;" href="https://github.com"
+                role="button">GitHub<i class="fab fa-github"></i></a>
+            <a class="btn btn-primary" style="background-color: #0082ca;" href="https://www.linkedin.com"
+                role="button">lin<i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-primary" style="background-color: #3b5998;" href="https://www.facebook.com"
+                role="button">f<i class="fab fa-facebook-f"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
