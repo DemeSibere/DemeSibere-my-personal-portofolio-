@@ -62,3 +62,10 @@
       .col-lg-4:hover {
         transform: scale(1.5);
       }
+      .card-title {
+          color:white;
+      }
+
+      .card-text li {
+        color:white;
+    }

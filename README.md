@@ -27,8 +27,12 @@ WHEN they resize the page or view the site on various screens and devices, THEN 
 
 ## Mock-Up
 
-The following animation shows the web application's appearance and functionality:
+This project has been deployed to GitHub pages.
 
-![portfolio demo](./Assets/ezgif.com-gif-maker-(1).gif) 
+* GitHub Repository: https://github.com/DemeSibere/my-personal-portofolio-
+* Deployed GitHub Page: https://demesibere.github.io/my-personal-portofolio-/
+* Portofolio Demo: The following animation shows the web application's appearance and functionality:
+
+
 
 
