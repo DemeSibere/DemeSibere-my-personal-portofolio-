@@ -31,7 +31,8 @@ This project has been deployed to GitHub pages.
 
 * GitHub Repository: https://github.com/DemeSibere/my-personal-portofolio-
 * Deployed GitHub Page: https://demesibere.github.io/my-personal-portofolio-/
-* Portofolio Demo:![The following animation shows the web application's appearance and functionality portfolio demo](./Assets/portofoliodemo.gif)
+* Portofolio Demo:
+![The following animation shows the web application's appearance and functionality portfolio demo](./Assets/portofoliodemo.gif)
 
 
 
