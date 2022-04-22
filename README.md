@@ -34,6 +34,7 @@ This project has been deployed to GitHub pages.
 * Portofolio Demo:
 ![The following animation shows the web application's appearance and functionality portfolio demo](./Assets/portofoliodemo.gif)
 
+* Portofolio Demo with local storage:
 
-
+![The following animation shows the web application's appearance and functionality portfolio demo](./Assets/localstoragedemo..gif)
 
