@@ -1,6 +1,3 @@
-var save = document.querySelector("#save");
-var listGroup = document.querySelector("#saveList")
-
 function add_local() {
     const display = {};
     display.name = document.getElementById('name').value;
@@ -9,10 +6,17 @@ function add_local() {
     display.comment=document.getElementById('comment').value;
 
     window.localStorage.setItem('display', JSON.stringify(display));
+   alert("Thank you, I will contact you soon.");
+    document.getElementById('name').value = "";
+    document.getElementById('email').value = "";
+    document.getElementById('subject').value = "";
+    document.getElementById('comment').value = "";
+
 
 }
+
+
 function show_local() {
-    save.innerHTML = ''
 
     let _display = JSON.parse(localStorage.getItem("display"));
     document.getElementById('name').value = _display.name;
@@ -21,9 +25,6 @@ function show_local() {
     document.getElementById('comment').value = _display.comment;
 
     document.getElementById('display').value = Object.values(_display);
-    listGroup.appendChild(display)
 
 }
 
-
-   show_local();

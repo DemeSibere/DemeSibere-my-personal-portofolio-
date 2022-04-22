@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -147,21 +146,19 @@
                 <div class="row mt-4">
                     <div class="col-lg-6">
                         <form>
-                            <input type="text" class="form-control form-control-lg" placeholder="Name">
-                            <input type="email" class="form-control mt-3" placeholder="Email">
-                            <input type="text" class="form-control mt-3" placeholder="Subject">
+                            <input type="text" class="form-control form-control-lg" placeholder="Name" id ="name">
+                            <input type="email" class="form-control mt-3" placeholder="Email" id="email">
+                            <input type="text" class="form-control mt-3" placeholder="Subject" id="subject">
                             <div class="mb-3 mt-3">
                                 <textarea class="form-control" rows="5" id="comment" name="text"
-                                    placeholder="Project Details"></textarea>
+                                    placeholder="Project Details" id></textarea>
                             </div>
                         </form>
-                        <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                        <button type="button" class="btn btn-success mt-3" onclick= "add_local()" >Contact Me</button>
+                        <div><button type="button" class="btn btn-success mt-3" onclick= "show_local()" >Show detail</button>
+                        </div>
                     </div>
-                    <div id="save">
-                        <ul class="list-group" id="saveList">
-
-                        </ul>
-                    </div>
+            
                 </div>
             </div>
         </section>
@@ -177,6 +174,6 @@
                 role="button">f<i class="fab fa-facebook-f"></i></a>
         </div>
     </footer>
+    <script src="./Assets/script.js"></script>
 </body>
-<script src="./assets/script.js"></script>
 </html>
